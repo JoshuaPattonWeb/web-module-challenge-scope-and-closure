@@ -29,10 +29,16 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   
   1. What is the difference between counter1 and counter2?
   
+  - 
+
   2. Which of the two uses a closure? How can you tell?
   
+  - Counter1 uses closure. Multiple functions enclosed together. The inner function can reach out to the outer function for data.
+
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+  - counter1 would be preferable for if other functions needed to reach out and grab data from the same function.
+  - counter2 would be preferable 
 */
 
 // counter1 code

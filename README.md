@@ -9,7 +9,12 @@ The module challenge is the afternoon project or assignment that students work t
 ## Objectives
 
 - Explain function scope
+
+- When a variable is declared within a function and cannot be accessed from outside the function.
+
 - Describe what closure is, how closure is created in a program and why it is important to understand closures in JavaScript  
+
+- Closure is when you have a function nested within another function. The function within can reach to the outer scope in order to pull information needed. Closure is important as you can control what is or is not within the scope.
 
 ## Introduction
 
